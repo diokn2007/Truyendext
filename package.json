@@ -1,0 +1,62 @@
+{
+  "name": "mangamax",
+  "version": "0.3.0",
+  "private": true,
+  "author": "huynhzip3",
+  "description": "Website đọc manga hoàn toàn miễn phí, đéo quảng cáo.",
+  "scripts": {
+    "dev": "next dev -p 8080",
+    "build": "NODE_ENV=production next build",
+    "start": "next start -p 8080",
+    "lint": "next lint",
+    "export": "next export",
+    "commit": "git add . && npx git-cz"
+  },
+  "dependencies": {
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "@vespaiach/axios-fetch-adapter": "^0.3.1",
+    "axios": "^0.27.2",
+    "crypto-js": "^4.1.1",
+    "entities": "^4.3.1",
+    "firebase": "^9.9.2",
+    "next": "12.2.2",
+    "next-pwa": "5.5.4",
+    "next-redux-wrapper": "^7.0.5",
+    "node-html-parser": "^5.4.2-0",
+    "nprogress": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.0.3",
+    "react-icons": "^4.4.0",
+    "react-query": "^3.39.2",
+    "react-redux": "^8.0.2",
+    "react-virtualized": "^9.22.5",
+    "redux": "^4.2.0",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.3",
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-virtualized": "^9.21.22",
+    "@types/styled-jsx": "^3.4.4",
+    "autoprefixer": "^10.4.8",
+    "eslint": "^8.21.0",
+    "eslint-config-next": "^12.2.5",
+    "postcss": "^8.4.16",
+    "redux-devtools-extension": "^2.13.9",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.7.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  },
+  "resolutions": {
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2"
+  }
+}
